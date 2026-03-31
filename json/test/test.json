@@ -1,0 +1,42 @@
+{
+  "arg1": "hello world",
+  "arg2": 12,
+  "arg3": 3.14,
+  "tags": [
+    "alpha",
+    "beta",
+    "gamma"
+  ],
+  "scores": [
+    10,
+    20,
+    30
+  ],
+  "ratios": [
+    0.5,
+    1.25,
+    2.75
+  ],
+  "subObject1": {
+    "arg1": "nested",
+    "arg2": 7,
+    "arg3": [
+      1,
+      2,
+      3
+    ],
+    "subObject2": {
+      "name": "child",
+      "count": 2,
+      "values": [
+        4.2,
+        5.3
+      ]
+    }
+  },
+  "metadata": {
+    "title": "sample payload",
+    "version": 2,
+    "weight": 42.75
+  }
+}

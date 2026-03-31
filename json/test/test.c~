@@ -1,0 +1,33 @@
+class SubObject2
+{
+    string name;
+    int count;
+    double[] values;
+};
+
+class SubObject1
+{
+    string arg1;
+    int arg2;
+    int[] arg3;
+    SubObject2 subObject2;
+};
+
+class SubMetadata
+{
+    string title;
+    int version;
+    double weight;
+};
+
+class Test : public Json
+{
+    string arg1;
+    int arg2;
+    double arg3;
+    string[] tags;
+    int[] scores;
+    double[] ratios;
+    SubObject1 subObject1;
+    SubMetadata metadata;
+};
