@@ -2,7 +2,7 @@
 
 ## JSON To Class
 
-`jsonToClass.py` is a small Python script that reads a JSON object and generates simple C++-style class definitions.
+`jsonToClass.py` is a small Python script that reads a JSON object and generates simple C~ class definitions.
 
 It supports:
 - `string`
